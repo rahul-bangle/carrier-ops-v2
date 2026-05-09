@@ -1,0 +1,23 @@
+{
+  "candidate_details": {
+    "full_name": "Rahul Bangle",
+    "email": "rahulbangle20@gmail.com",
+    "phone": "+91-9346456928",
+    "location": "Hyderabad, India",
+    "links": {
+      "linkedin": "https://linkedin.com/in/rahulbangle",
+      "github": "https://github.com/rahulbangle",
+      "portfolio": "https://github.com/rahulbangle"
+    }
+  },
+  "common_responses": {
+    "why_this_role": "I am an Agentic Ops specialist with 4+ years of experience bridging the gap between high-stakes operations (AESL) and hands-on AI building. I don't just use AI; I build systems like Prompt Forge and Mission Control that solve the reliability gap for enterprises. I want to bring this 'Builder PM' mindset to your team to create products that are as trustworthy as they are innovative.",
+    "superpower": "Agentic Ops Transformation — The ability to identify operational bottlenecks and solve them by building automated, agentic systems with built-in audit trails and evaluation loops.",
+    "notice_period": "Immediate / Negotiable",
+    "target_salary": "5 LPA - 10 LPA INR"
+  },
+  "work_summary": {
+    "edtech_ops": "Managed SLA systems and process auditing for 100+ daily interactions at AESL, improving CSAT by 20%.",
+    "ai_building": "Shipped 3 agentic tools (0 to 1) focusing on LLM-as-Judge evaluation and multi-model routing."
+  }
+}

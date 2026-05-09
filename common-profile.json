@@ -1,0 +1,132 @@
+{
+  "personal_info": {
+    "first_name": "Rahul",
+    "last_name": "Bangle",
+    "full_name": "Rahul Bangle",
+    "email": "bangleahul1@gmail.com",
+    "phone": "+91-9346456928",
+    "location": "Hyderabad, India",
+    "current_city": "Hyderabad",
+    "linkedin": "https://linkedin.com/in/rahulbangle",
+    "github": "https://github.com/rahulbangle",
+    "portfolio": "https://github.com/rahulbangle"
+  },
+  "professional_summary": "Product Manager with 4+ years in EdTech & ops. Shipped 3 AI tools from 0→1. Strong on execution, metrics, and cross-functional delivery.",
+  "experience": [
+    {
+      "company": "Aakash Educational Services Limited (AESL)",
+      "role": "Product Operations Associate — EdTech Insights",
+      "duration": "Feb 2024 – Mar 2026",
+      "location": "Hyderabad",
+      "key_achievements": [
+        "Structured 100+ parent/student interactions into requirement-style insights ensuring data privacy and compliance.",
+        "Built and managed a feedback/SLA documentation system; reduced SLA breaches by 15% through automated tracking.",
+        "Mapped lead-to-enrollment funnel; pinpointed 4 drop-off points and implemented audit trails, driving 20% CSAT improvement.",
+        "Pre-launch validation of onboarding flows; flagged 6 usability and compliance gaps, fixed before rollout."
+      ]
+    },
+    {
+      "company": "Bright Career Guidance",
+      "role": "Team Leader — Sales Operations",
+      "duration": "Nov 2022 – Jan 2024",
+      "location": "Hyderabad",
+      "key_achievements": [
+        "Led 12-member team to beat monthly conversion targets by 25% via sprint-style planning and weekly retros.",
+        "Built KPI dashboards in Excel cutting reporting time by 40% and enabling faster team decisions.",
+        "Drove Salesforce/Zendesk adoption to 100% compliance in 6 weeks via SOPs + hands-on training."
+      ]
+    },
+    {
+      "company": "Qconnect Business Solutions",
+      "role": "Customer Experience & Operations Executive",
+      "duration": "Jan 2021 – Jul 2022",
+      "location": "Hyderabad",
+      "key_achievements": [
+        "Analyzed 500+ tickets; top 5 issue themes led to redesign of 2 support workflows.",
+        "Maintained 95%+ CSAT across phone, email, and chat, consistently top 3 in team."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Prompt Forge v4",
+      "description": "Multi-Agent Prompt Engineering Platform — 0→1",
+      "details": "Designed a closed-loop agent evaluation system; multi-model routing (Groq, OpenRouter) with built-in latency and cost guardrails. Reduced time-to-first-useful-output from 4 min to 90 sec."
+    },
+    {
+      "name": "Mission Control Dashboard",
+      "description": "Agentic Ops Monitoring System — React + Supabase",
+      "details": "Real-time operations dashboard for monitoring multi-agent AI system performance. Reduced manual system check time from 15 min to under 2 min."
+    },
+    {
+      "name": "Jobs Automator",
+      "description": "Job Search Automation — FastAPI + React",
+      "details": "FastAPI + React tool for resume parsing, JD-based LLM tailoring, and job scraping. Iterated JD-to-resume matching accuracy from 60% to 85%."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sri Medha V Degree College, Hyderabad",
+      "degree": "B.Com (Computer Applications)",
+      "duration": "2020 – 2023"
+    },
+    {
+      "institution": "NextLeap PM Fellowship",
+      "degree": "Cohort 46",
+      "duration": "2024 – 2026"
+    }
+  ],
+  "skills": {
+    "agentic_ai": [
+      "Multi-agent Systems",
+      "MCP",
+      "LLM-as-Judge",
+      "Agent Evaluation",
+      "Token Cost Optimization"
+    ],
+    "ai_llm": [
+      "Prompt Engineering",
+      "OpenRouter",
+      "Groq",
+      "Model Selection",
+      "Hallucination Detection"
+    ],
+    "pm": [
+      "PRD Writing",
+      "User Stories",
+      "OKRs",
+      "A/B Testing",
+      "Roadmapping",
+      "Notion",
+      "Jira",
+      "Figma"
+    ],
+    "analytics": [
+      "Excel",
+      "Google Sheets",
+      "SQL (basic)",
+      "Funnel Analysis",
+      "Cohort Analysis",
+      "Telemetry"
+    ],
+    "dev": [
+      "FastAPI",
+      "React",
+      "Python",
+      "Supabase",
+      "REST APIs"
+    ],
+    "crm_ops": [
+      "Salesforce",
+      "Zendesk",
+      "Freshdesk",
+      "SLA Management"
+    ]
+  },
+  "common_questions": {
+    "why_this_role": "With 4+ years in ops and hands-on experience building AI tools from 0-to-1, I bridge the gap between operational efficiency and cutting-edge product delivery. I am excited to bring this mix of technical execution and operational rigor to your team.",
+    "superpower": "My superpower is 'Building Auditable Systems'. Whether it's a parent-student feedback loop at AESL or a multi-agent prompt engine, I ensure every process is governed, measured, and optimized for speed.",
+    "notice_period": "30 days (Negotiable)",
+    "salary_expectation": "As per industry standards for the role impact."
+  }
+}

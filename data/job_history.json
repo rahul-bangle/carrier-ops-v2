@@ -1,0 +1,62 @@
+{
+  "https://jobs.ashbyhq.com/zip/b20653a0-1a06-4c81-a3a0-2ef41e728b3b": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/zip/c163d70c-89cc-406a-8f39-76b922eb7da2": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/zip/5efb6f2b-0012-4544-b4a5-ce982b78078a": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/zip/cc617b32-3a81-4602-8edc-31d3b43a78f8": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/zip/f393967c-cd4d-4c4a-afd3-ed2ac3361093": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/zip/5933688a-589f-4493-9eac-2fee44eb5197": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/zip/b9a66bf7-d4f0-4522-9ad2-67c00060090e": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 8
+  },
+  "https://jobs.ashbyhq.com/zip/e183b27b-fbc3-4baf-8d27-f994c7b74cbd": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 8
+  },
+  "https://jobs.ashbyhq.com/voize/61bd2403-2867-4500-9ecf-197105b5b488": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/lancedb/7fe25cf2-3bb8-4d05-8715-b22d72c22bd7": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  },
+  "https://jobs.ashbyhq.com/langchain/27af5f96-b287-4bcc-8679-f96686dc7c8d": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 10
+  },
+  "https://jobs.ashbyhq.com/casca/f3143f0e-6b8a-4a6a-bbb7-7b14818a9667": {
+    "status": "scanned",
+    "date": "2026-05-09",
+    "score": 9
+  }
+}
