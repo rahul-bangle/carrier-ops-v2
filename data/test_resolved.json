@@ -1,0 +1,402 @@
+[
+  {
+    "company": "Bland",
+    "provider": "ashby",
+    "api_url": "https://api.ashbyhq.com/posting-api/job-board/bland",
+    "job_count": 13,
+    "sample_jobs": [
+      {
+        "company": "Bland",
+        "title": "Senior Infrastructure Engineer",
+        "url": "https://jobs.ashbyhq.com/bland/a3a383e0-9c15-4777-a95b-536cb8c1174c",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Bland",
+        "title": "Customer Engineer",
+        "url": "https://jobs.ashbyhq.com/bland/804fbd27-027e-4de5-8a6f-77241a65e599",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Bland",
+        "title": "Forward Deployed Engineer",
+        "url": "https://jobs.ashbyhq.com/bland/823904dd-f958-45c8-8e9a-4d9755cd03f0",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Bland",
+        "title": "Technical Account Manager",
+        "url": "https://jobs.ashbyhq.com/bland/72c82d6b-99c1-4bae-a5c8-267c74b13081",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Bland",
+        "title": "Head of Partnerships",
+        "url": "https://jobs.ashbyhq.com/bland/f67ff0f0-455d-47cd-b384-e78c65ec43c4",
+        "location": "San Francisco"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Elevenlabs",
+    "provider": "ashby",
+    "api_url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+    "job_count": 141,
+    "sample_jobs": [
+      {
+        "company": "Elevenlabs",
+        "title": "Enterprise Solutions Engineer - North America",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/275f43d0-b62d-401d-830c-7c1ac0e688aa",
+        "location": "United States"
+      },
+      {
+        "company": "Elevenlabs",
+        "title": "Full-Stack Growth Engineer ",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/5881bc5d-765a-430e-9d28-7d598a0e1a03",
+        "location": "United Kingdom"
+      },
+      {
+        "company": "Elevenlabs",
+        "title": "Sales Development - United States",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/158034c9-eb7c-4348-a0b8-fa9e817b29f1",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Elevenlabs",
+        "title": "Full-Stack Engineer (Back-End Leaning)",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/c7d59014-b918-4c15-ae33-79f5c9f2cf9f",
+        "location": "United Kingdom"
+      },
+      {
+        "company": "Elevenlabs",
+        "title": "Full-Stack Engineer (Front-End Leaning)",
+        "url": "https://jobs.ashbyhq.com/elevenlabs/ada7cd2c-8b9f-4f19-a88b-7c2ca1be1fde",
+        "location": "United Kingdom"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Anthropic",
+    "provider": "greenhouse",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true",
+    "job_count": 422,
+    "sample_jobs": [
+      {
+        "company": "Anthropic",
+        "title": "Account Executive, Beneficial Deployments (French Speaking)",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5165641008",
+        "location": "Dublin, IE"
+      },
+      {
+        "company": "Anthropic",
+        "title": "Account Executive, Beneficial Deployments (French Speaking)",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5161980008",
+        "location": "London, UK"
+      },
+      {
+        "company": "Anthropic",
+        "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5165651008",
+        "location": "Dublin, IE"
+      },
+      {
+        "company": "Anthropic",
+        "title": "Account Executive, Beneficial Deployments (Portuguese Speaking)",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5161988008",
+        "location": "London, UK"
+      },
+      {
+        "company": "Anthropic",
+        "title": "Account Executive, Beneficial Deployments (Spanish Speaking)",
+        "url": "https://job-boards.greenhouse.io/anthropic/jobs/5161986008",
+        "location": "London, UK"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Humeai",
+    "provider": "greenhouse",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/humeai/jobs?content=true",
+    "job_count": 7,
+    "sample_jobs": [
+      {
+        "company": "Humeai",
+        "title": "AI Researcher",
+        "url": "https://job-boards.greenhouse.io/humeai/jobs/4775962008",
+        "location": "NYC, San Jose, or Remote"
+      },
+      {
+        "company": "Humeai",
+        "title": "Front-End Engineer",
+        "url": "https://job-boards.greenhouse.io/humeai/jobs/4948192008",
+        "location": "NYC, San Jose, or Remote"
+      },
+      {
+        "company": "Humeai",
+        "title": "Open Role",
+        "url": "https://job-boards.greenhouse.io/humeai/jobs/4003656008",
+        "location": "NYC, San Jose, or Remote"
+      },
+      {
+        "company": "Humeai",
+        "title": "Product Designer",
+        "url": "https://job-boards.greenhouse.io/humeai/jobs/4004597008",
+        "location": "NYC, San Jose, or Remote"
+      },
+      {
+        "company": "Humeai",
+        "title": "Product Manager, Growth",
+        "url": "https://job-boards.greenhouse.io/humeai/jobs/4856037008",
+        "location": "NYC, San Jose, or Remote"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Airtable",
+    "provider": "greenhouse",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true",
+    "job_count": 21,
+    "sample_jobs": [
+      {
+        "company": "Airtable",
+        "title": "Account Executive, Strategic Accounts",
+        "url": "https://job-boards.greenhouse.io/airtable/jobs/8403127002",
+        "location": "Remote - US"
+      },
+      {
+        "company": "Airtable",
+        "title": "AI Agent Architect, Customer Experience",
+        "url": "https://job-boards.greenhouse.io/airtable/jobs/8409168002",
+        "location": "Remote - US"
+      },
+      {
+        "company": "Airtable",
+        "title": "Business Development Representative",
+        "url": "https://job-boards.greenhouse.io/airtable/jobs/8425211002",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "Airtable",
+        "title": "Delivery Consultant",
+        "url": "https://job-boards.greenhouse.io/airtable/jobs/8409166002",
+        "location": "San Francisco, CA; New York, NY; Remote - US"
+      },
+      {
+        "company": "Airtable",
+        "title": "Design Technologist",
+        "url": "https://job-boards.greenhouse.io/airtable/jobs/8455969002",
+        "location": "San Francisco, CA"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Intercom",
+    "provider": "greenhouse",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/intercom/jobs?content=true",
+    "job_count": 171,
+    "sample_jobs": [
+      {
+        "company": "Intercom",
+        "title": "Account Executive, Commercial",
+        "url": "https://job-boards.greenhouse.io/intercom/jobs/7247950",
+        "location": "Chicago, Illinois"
+      },
+      {
+        "company": "Intercom",
+        "title": "Account Executive, Commercial",
+        "url": "https://job-boards.greenhouse.io/intercom/jobs/7254820",
+        "location": "San Francisco, California"
+      },
+      {
+        "company": "Intercom",
+        "title": "Account Executive, Commercial ",
+        "url": "https://job-boards.greenhouse.io/intercom/jobs/7408013",
+        "location": "Dublin, Ireland"
+      },
+      {
+        "company": "Intercom",
+        "title": "Account Executive, Commercial - French Speaking ",
+        "url": "https://job-boards.greenhouse.io/intercom/jobs/7591182",
+        "location": "Dublin, Ireland"
+      },
+      {
+        "company": "Intercom",
+        "title": "Account Executive, Emerging AI Products",
+        "url": "https://job-boards.greenhouse.io/intercom/jobs/7603334",
+        "location": "Chicago, Illinois"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Vapi",
+    "provider": "ashby",
+    "api_url": "https://api.ashbyhq.com/posting-api/job-board/vapi",
+    "job_count": 25,
+    "sample_jobs": [
+      {
+        "company": "Vapi",
+        "title": "Member of Technical Staff, Backend",
+        "url": "https://jobs.ashbyhq.com/vapi/d270d613-30b8-4fdc-96e0-514993ca7a82",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Vapi",
+        "title": "Member of Technical Staff, Infrastructure",
+        "url": "https://jobs.ashbyhq.com/vapi/295f5269-1bb5-4740-81fa-9716adc32ad5",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Vapi",
+        "title": "Enterprise Account Executive",
+        "url": "https://jobs.ashbyhq.com/vapi/50d82ec9-720a-4aea-9a2d-c502786f737e",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Vapi",
+        "title": "Sales Development Representative (SDR)",
+        "url": "https://jobs.ashbyhq.com/vapi/6c313f2f-5287-4e51-a0a4-a38cda6f79dc",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Vapi",
+        "title": "Mid Market Account Executive",
+        "url": "https://jobs.ashbyhq.com/vapi/e7c7a40d-4fa9-4f26-8517-343c2e0daa8b",
+        "location": "San Francisco"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Decagon",
+    "provider": "ashby",
+    "api_url": "https://api.ashbyhq.com/posting-api/job-board/decagon",
+    "job_count": 98,
+    "sample_jobs": [
+      {
+        "company": "Decagon",
+        "title": "Enterprise Account Executive ",
+        "url": "https://jobs.ashbyhq.com/decagon/67c794bd-e423-44b2-8b80-d7b759994cde",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Decagon",
+        "title": "Director of Sales, Enterprise",
+        "url": "https://jobs.ashbyhq.com/decagon/ca69cd40-646d-44a8-a052-6f40294b123b",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Decagon",
+        "title": "Senior Research Engineer",
+        "url": "https://jobs.ashbyhq.com/decagon/c1ac7d78-028b-451e-a10a-48c3c11308ea",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Decagon",
+        "title": "Senior Agent Product Manager",
+        "url": "https://jobs.ashbyhq.com/decagon/dcf9b561-f2fb-422b-88a9-33ce76e96608",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Decagon",
+        "title": "Engineering Manager, Agent Orchestration",
+        "url": "https://jobs.ashbyhq.com/decagon/b295b323-3d01-4126-94c1-9fc7489ebdf0",
+        "location": "San Francisco"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Lindy",
+    "provider": "ashby",
+    "api_url": "https://api.ashbyhq.com/posting-api/job-board/lindy",
+    "job_count": 8,
+    "sample_jobs": [
+      {
+        "company": "Lindy",
+        "title": "Full Stack Software Engineer (Early Career)",
+        "url": "https://jobs.ashbyhq.com/lindy/a5100dbe-d851-4544-bb4c-0428d77940eb",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Lindy",
+        "title": "Growth Product Manager",
+        "url": "https://jobs.ashbyhq.com/lindy/ff98a7a7-26e8-48dc-8ecd-c9a69c1f390a",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Lindy",
+        "title": "Senior Product Designer",
+        "url": "https://jobs.ashbyhq.com/lindy/4258e967-8a1a-48b0-84d7-c9764521201a",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Lindy",
+        "title": "Staff Software Engineer",
+        "url": "https://jobs.ashbyhq.com/lindy/de321403-4e9e-4d91-aa5d-1f84d770a4a6",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Lindy",
+        "title": "Intern - Engineering",
+        "url": "https://jobs.ashbyhq.com/lindy/a8e64e62-ecbf-4fbb-bfe8-655633710f20",
+        "location": "San Francisco"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  },
+  {
+    "company": "Sierra",
+    "provider": "ashby",
+    "api_url": "https://api.ashbyhq.com/posting-api/job-board/sierra",
+    "job_count": 129,
+    "sample_jobs": [
+      {
+        "company": "Sierra",
+        "title": "Sales Engineer",
+        "url": "https://jobs.ashbyhq.com/sierra/8152eaf6-012b-4154-95e2-7d6c52faba93",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Sierra",
+        "title": "Software Engineer, Product",
+        "url": "https://jobs.ashbyhq.com/sierra/b16462e4-ce32-4ce9-b788-0a8f0f096361",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Sierra",
+        "title": "Sales Director",
+        "url": "https://jobs.ashbyhq.com/sierra/41e66706-b647-4ab1-8c7f-8f2975babba7",
+        "location": "US - Remote"
+      },
+      {
+        "company": "Sierra",
+        "title": "Software Engineer, Platform",
+        "url": "https://jobs.ashbyhq.com/sierra/d77487f9-bab3-44c6-be18-744e7125c8b3",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Sierra",
+        "title": "Brand Designer (Contract)",
+        "url": "https://jobs.ashbyhq.com/sierra/a5402a9c-d0ea-4e60-a1bc-68574d54950f",
+        "location": "San Francisco, CA"
+      }
+    ],
+    "source": "guessed_api",
+    "last_checked": "2026-05-11"
+  }
+]

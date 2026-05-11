@@ -1,0 +1,85 @@
+[
+  {
+    "company": "Razorpay",
+    "provider": "greenhouse",
+    "api_url": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs?content=true",
+    "job_count": 49,
+    "sample_jobs": [
+      {
+        "company": "Razorpay",
+        "title": "Account Manager, Banking Alliance",
+        "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4685992005",
+        "location": "Mumbai"
+      },
+      {
+        "company": "Razorpay",
+        "title": "Account Manager, EMI Sales",
+        "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4676093005",
+        "location": "Chennai"
+      },
+      {
+        "company": "Razorpay",
+        "title": "AI Builder",
+        "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4688061005",
+        "location": "Bengaluru"
+      },
+      {
+        "company": "Razorpay",
+        "title": "AI Evangelist",
+        "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4680760005",
+        "location": "Bengaluru"
+      },
+      {
+        "company": "Razorpay",
+        "title": "Associate, Customer Success",
+        "url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4650635005",
+        "location": "Malaysia"
+      }
+    ],
+    "careers_url": "https://razorpay.com/jobs/jobs-all/?location=all&department=",
+    "source": "manual_override",
+    "last_checked": "2026-05-11",
+    "replaces": "https://boards-api.greenhouse.io/v1/boards/razorpay/jobs?content=true"
+  },
+  {
+    "company": "Paytm",
+    "provider": "lever",
+    "api_url": "https://api.lever.co/v0/postings/paytm?mode=json",
+    "job_count": 133,
+    "sample_jobs": [
+      {
+        "company": "Paytm",
+        "title": "Account Director- Inference and Agentic AI- Noida/Bangalore",
+        "url": "https://jobs.lever.co/paytm/50abecc2-b565-4ae4-830a-d818177e8b80",
+        "location": "Noida, Uttar Pradesh"
+      },
+      {
+        "company": "Paytm",
+        "title": "Account Executive - Enterprise Sales",
+        "url": "https://jobs.lever.co/paytm/160c6629-0303-428b-91ac-c437b987dc6c",
+        "location": "Bangalore, Karnataka"
+      },
+      {
+        "company": "Paytm",
+        "title": "Accounting Operation- DM",
+        "url": "https://jobs.lever.co/paytm/44cc1678-dea7-4316-921b-fbcc56a1f435",
+        "location": "Noida, Uttar Pradesh"
+      },
+      {
+        "company": "Paytm",
+        "title": "AI Solutions Architect",
+        "url": "https://jobs.lever.co/paytm/cef5fbcc-5728-4bfd-a94f-50efdbf23734",
+        "location": "Noida, Uttar Pradesh"
+      },
+      {
+        "company": "Paytm",
+        "title": "Area Collection Manager - Manager - Lending Collections (EM Recovery)",
+        "url": "https://jobs.lever.co/paytm/05fe181e-428b-4cc7-afab-373fbc90f19e",
+        "location": "Udaipur, Rajasthan"
+      }
+    ],
+    "careers_url": "https://paytm.com/careers/",
+    "source": "careers_page",
+    "last_checked": "2026-05-11"
+  }
+]

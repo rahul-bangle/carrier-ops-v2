@@ -2,30 +2,45 @@ import os
 import json
 import csv
 import requests
-from typing import Set, List
+from typing import Set, List, Dict
 from concurrent.futures import ThreadPoolExecutor
 
 def build_db():
     print("🏗️  Building Master Target Database (Enterprise Edition)...")
-    targets = {
-        "ashby": set(),
-        "greenhouse": set()
-    }
-    
+    # key: slug, value: company_data
+    companies: Dict[str, Dict] = {}
+
     # 1. Load from scan-history.tsv (Existing Data)
     tsv_path = "data/scan-history.tsv"
     if os.path.exists(tsv_path):
         print("📂 Importing slugs from scan-history.tsv...")
-        with open(tsv_path, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f, delimiter='\t')
-            for row in reader:
-                url = row.get('url', '')
-                if 'jobs.ashbyhq.com' in url:
-                    parts = url.split('/')
-                    if len(parts) >= 4: targets["ashby"].add(parts[3])
-                elif 'boards.greenhouse.io' in url:
-                    parts = url.split('/')
-                    if len(parts) >= 4: targets["greenhouse"].add(parts[3])
+        try:
+            with open(tsv_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f, delimiter='\t')
+                for row in reader:
+                    url = row.get('url', '')
+                    slug = None
+                    if 'jobs.ashbyhq.com' in url:
+                        parts = url.split('/')
+                        if len(parts) >= 4: slug = parts[3]
+                    elif 'boards.greenhouse.io' in url:
+                        parts = url.split('/')
+                        if len(parts) >= 4: slug = parts[3]
+                    
+                    if slug and slug not in companies:
+                        companies[slug] = {
+                            "company": slug.capitalize(),
+                            "slug": slug,
+                            "website": None,
+                            "careers_candidates": [],
+                            "guessed_api_urls": [
+                                f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
+                                f"https://api.ashbyhq.com/posting-api/job-board/{slug}",
+                                f"https://api.lever.co/v0/postings/{slug}?mode=json"
+                            ]
+                        }
+        except Exception as e:
+            print(f"⚠️  Could not read scan-history.tsv: {e}")
 
     # 2. Fetch from YC-OSS API Repo (Massive Goldmine)
     print("🌐 Mining 5000+ YC startups from yc-oss dataset...")
@@ -50,40 +65,59 @@ def build_db():
             try:
                 r = requests.get(download_url, timeout=10)
                 if r.status_code == 200:
-                    companies = r.json()
-                    local_slugs = []
-                    for c in companies:
-                        if 'slug' in c:
-                            local_slugs.append(c['slug'])
-                    return local_slugs
+                    return r.json()
             except:
                 return []
             return []
 
         # Use ThreadPool to speed up 300+ requests
         with ThreadPoolExecutor(max_workers=20) as executor:
-            results = executor.map(process_tag, tag_files)
-            for slugs in results:
-                for slug in slugs:
-                    targets["ashby"].add(slug)
-                    targets["greenhouse"].add(slug)
+            tag_results = executor.map(process_tag, tag_files)
+            for items in tag_results:
+                if not isinstance(items, list): continue
+                for c in items:
+                    slug = c.get('slug')
+                    if not slug: continue
+                    
+                    name = c.get('name') or slug
+                    website = c.get('website')
+                    
+                    # Update or add
+                    if slug not in companies or (companies[slug]['website'] is None and website):
+                        candidates = []
+                        if website:
+                            base = website.rstrip('/')
+                            candidates = [
+                                base + "/careers",
+                                base + "/jobs",
+                                base + "/company/careers",
+                                base + "/about/careers",
+                                base + "/join-us",
+                                base + "/hiring",
+                                base + "/join"
+                            ]
 
-    # 3. Generate API Endpoints
-    final_apis = []
-    for slug in targets["ashby"]:
-        final_apis.append(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
-    for slug in targets["greenhouse"]:
-        final_apis.append(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
+                        companies[slug] = {
+                            "company": name,
+                            "slug": slug,
+                            "website": website,
+                            "careers_candidates": candidates,
+                            "guessed_api_urls": [
+                                f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
+                                f"https://api.ashbyhq.com/posting-api/job-board/{slug}",
+                                f"https://api.lever.co/v0/postings/{slug}?mode=json"
+                            ]
+                        }
 
-    # 4. Save to targets.json
-    output_path = "data/targets.json"
+    # 3. Save to targets_input.json
+    output_path = "data/targets_input.json"
     os.makedirs("data", exist_ok=True)
     
+    final_list = list(companies.values())
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(final_apis, f, indent=2)
+        json.dump(final_list, f, indent=2)
         
-    print(f"✅ Database Built! Total Unique Slugs: {len(targets['ashby']) | len(targets['greenhouse'])}")
-    print(f"🚀 Total API Endpoints Generated: {len(final_apis)}")
+    print(f"✅ Database Built! Total Unique Companies: {len(final_list)}")
     print(f"📄 Saved to: {os.path.abspath(output_path)}")
 
 if __name__ == "__main__":

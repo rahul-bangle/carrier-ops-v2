@@ -1,0 +1,171 @@
+[
+  {
+    "company": "Groww",
+    "careers_url": "https://groww.in/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Postman",
+    "careers_url": "https://www.postman.com/company/careers/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Slice",
+    "careers_url": "https://www.sliceit.com/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Zomato",
+    "careers_url": "https://www.zomato.com/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Swiggy",
+    "careers_url": "https://careers.swiggy.com/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Zepto",
+    "careers_url": "https://www.zeptonow.com/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Cred",
+    "careers_url": "https://cred.club/careers",
+    "guessed_api_url": null,
+    "reason": "careers_page_error",
+    "last_checked": "2026-05-11",
+    "discovery_error": "HTTP 404",
+    "failures": []
+  },
+  {
+    "company": "Meesho",
+    "careers_url": "https://www.meesho.io/jobs",
+    "guessed_api_url": null,
+    "reason": "careers_page_error",
+    "last_checked": "2026-05-11",
+    "discovery_error": "HTTP 403",
+    "failures": []
+  },
+  {
+    "company": "Nykaa",
+    "careers_url": "https://www.nykaa.com/careers",
+    "guessed_api_url": null,
+    "reason": "careers_page_error",
+    "last_checked": "2026-05-11",
+    "discovery_error": "HTTP 403",
+    "failures": []
+  },
+  {
+    "company": "BrowserStack",
+    "careers_url": "https://www.browserstack.com/careers",
+    "guessed_api_url": null,
+    "reason": "inactive_company",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": [
+      {
+        "reason": "api_dead",
+        "api_url": "https://browserstack.wd3.myworkdayjobs.com/External",
+        "provider": "workday",
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      }
+    ]
+  },
+  {
+    "company": "Unacademy",
+    "careers_url": "https://unacademy.com/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Jupiter",
+    "careers_url": "https://jupiter.money/careers/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "upGrad",
+    "careers_url": "https://www.upgrad.com/careers/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Headout",
+    "careers_url": "https://www.headout.com/careers/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Lenskart",
+    "careers_url": "https://www.lenskart.com/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Blinkit",
+    "careers_url": "https://blinkit.com/careers",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Chargebee",
+    "careers_url": "https://www.chargebee.com/careers/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  },
+  {
+    "company": "Yubi",
+    "careers_url": "https://www.go-yubi.com/careers/",
+    "guessed_api_url": null,
+    "reason": "no_api_found",
+    "last_checked": "2026-05-11",
+    "discovery_error": null,
+    "failures": []
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "company": "TestCompany",
+    "role": "Product Manager, Test Growth",
+    "url": "https://test.com/pm",
+    "description": "Just testing the db sync.",
+    "ai_eval": {
+      "score": 8,
+      "cluster": "High Fit",
+      "dm_draft": "Hi test"
+    }
+  }
+]

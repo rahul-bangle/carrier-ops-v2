@@ -45,4 +45,5 @@ bun.lock
 .claude/memory/
 career-dashboard
 package-lock.json
-*.csv
+*.csv.playwright-browsers/
+.playwright-browsers/

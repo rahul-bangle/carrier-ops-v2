@@ -1,0 +1,120 @@
+[
+  {
+    "company": "Bland",
+    "slug": "bland",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/bland/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/bland",
+      "https://api.lever.co/v0/postings/bland?mode=json"
+    ]
+  },
+  {
+    "company": "Elevenlabs",
+    "slug": "elevenlabs",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/elevenlabs/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/elevenlabs",
+      "https://api.lever.co/v0/postings/elevenlabs?mode=json"
+    ]
+  },
+  {
+    "company": "Anthropic",
+    "slug": "anthropic",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/anthropic",
+      "https://api.lever.co/v0/postings/anthropic?mode=json"
+    ]
+  },
+  {
+    "company": "Humeai",
+    "slug": "humeai",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/humeai/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/humeai",
+      "https://api.lever.co/v0/postings/humeai?mode=json"
+    ]
+  },
+  {
+    "company": "Airtable",
+    "slug": "airtable",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/airtable/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/airtable",
+      "https://api.lever.co/v0/postings/airtable?mode=json"
+    ]
+  },
+  {
+    "company": "Intercom",
+    "slug": "intercom",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/intercom/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/intercom",
+      "https://api.lever.co/v0/postings/intercom?mode=json"
+    ]
+  },
+  {
+    "company": "Vapi",
+    "slug": "vapi",
+    "website": "https://vapi.ai",
+    "careers_candidates": [
+      "https://vapi.ai/careers",
+      "https://vapi.ai/jobs",
+      "https://vapi.ai/company/careers",
+      "https://vapi.ai/about/careers",
+      "https://vapi.ai/join-us",
+      "https://vapi.ai/hiring",
+      "https://vapi.ai/join"
+    ],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/vapi/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/vapi",
+      "https://api.lever.co/v0/postings/vapi?mode=json"
+    ]
+  },
+  {
+    "company": "Decagon",
+    "slug": "decagon",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/decagon/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/decagon",
+      "https://api.lever.co/v0/postings/decagon?mode=json"
+    ]
+  },
+  {
+    "company": "Lindy",
+    "slug": "lindy",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/lindy/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/lindy",
+      "https://api.lever.co/v0/postings/lindy?mode=json"
+    ]
+  },
+  {
+    "company": "Sierra",
+    "slug": "sierra",
+    "website": null,
+    "careers_candidates": [],
+    "guessed_api_urls": [
+      "https://boards-api.greenhouse.io/v1/boards/sierra/jobs",
+      "https://api.ashbyhq.com/posting-api/job-board/sierra",
+      "https://api.lever.co/v0/postings/sierra?mode=json"
+    ]
+  }
+]
